@@ -1,0 +1,14 @@
+C:\!Library\Rhys\source\vti3\bin\Debug\net8.0\vti3.exe
+C:\!Library\Rhys\source\vti3\bin\Debug\net8.0\vti3.deps.json
+C:\!Library\Rhys\source\vti3\bin\Debug\net8.0\vti3.runtimeconfig.json
+C:\!Library\Rhys\source\vti3\bin\Debug\net8.0\vti3.dll
+C:\!Library\Rhys\source\vti3\bin\Debug\net8.0\vti3.pdb
+C:\!Library\Rhys\source\vti3\obj\Debug\net8.0\vti3.GeneratedMSBuildEditorConfig.editorconfig
+C:\!Library\Rhys\source\vti3\obj\Debug\net8.0\vti3.AssemblyInfoInputs.cache
+C:\!Library\Rhys\source\vti3\obj\Debug\net8.0\vti3.AssemblyInfo.cs
+C:\!Library\Rhys\source\vti3\obj\Debug\net8.0\vti3.csproj.CoreCompileInputs.cache
+C:\!Library\Rhys\source\vti3\obj\Debug\net8.0\vti3.dll
+C:\!Library\Rhys\source\vti3\obj\Debug\net8.0\refint\vti3.dll
+C:\!Library\Rhys\source\vti3\obj\Debug\net8.0\vti3.pdb
+C:\!Library\Rhys\source\vti3\obj\Debug\net8.0\vti3.genruntimeconfig.cache
+C:\!Library\Rhys\source\vti3\obj\Debug\net8.0\ref\vti3.dll
