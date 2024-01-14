@@ -1,13 +1,4 @@
-﻿/* Program outline:
-- class Entry
-- class Program
-    - Main - loop over getInput()
-    - parseInput(input)
-    - exec functions
-
-*/
-
-namespace Program {
+﻿namespace Program {
 
     public class Setup {
         public static int GetStarterID() {
@@ -45,9 +36,6 @@ namespace Program {
     }
 
     public class Program {
-        
-        //private static Entry[] entries = new Entry[5];
-        private static string[] entries = new string[5];
         private static readonly string filename = "log.csv";
 
         
