@@ -8,11 +8,19 @@
 */
 
 namespace Program {
+
+    public class Setup {
+        public static int GetStarterID() {
+            string[] fileInput = File.ReadAllLines("CurrentId.txt");
+            return int.Parse(fileInput[fileInput.Length-1]);
+        }
+    }
+
     
     public class Entry {
         // Figured out how to give each entry a unique id by looking at an old Java program of mine.
         // Probably got it from Dr. Halterman.
-        private static int counter = 0;
+        private static int counter = Setup.GetStarterID();
         private int id;
         private string logDate;
         private string logText;
@@ -56,6 +64,7 @@ namespace Program {
                 newEntry = new Entry(thisDay, userText);
                 string logText = $"{newEntry.getId()}, {newEntry.getLogDate()}, {newEntry.getText()}\r\n";
                 File.AppendAllText(filename, logText);
+                File.WriteAllText("CurrentId.txt", $"{newEntry.getId()+1}");
                 return 0;
             } else {
                 return 1;
