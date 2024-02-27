@@ -36,7 +36,7 @@
     }
 
     public class Program {
-        private static readonly string filename = "log.csv";
+        private static readonly string filename = "local/log.csv";
 
         
         private static int ExecAdd() {
